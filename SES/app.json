@@ -4,9 +4,9 @@
     "publisher": "Sebastian Schuh",
     "brief": "Sebastian Schuh",
     "description": " ",
-    "version": "21.0.0.0",
-    "platform": "21.0.0.0",
-    "application": "21.0.0.0",
+    "version": "1.0.0.0",
+    "platform": "22.0.0.0",
+    "application": "22.0.0.0",
     "privacyStatement": "https://github.com/sschuh/",
     "EULA": "https://github.com/sschuh/",
     "help": "https://github.com/sschuh/",
@@ -25,7 +25,8 @@
     ],
     "features": [
         "TranslationFile",
-        "NoPromotedActionProperties"
+        "NoPromotedActionProperties",
+        "NoImplicitWith"
     ],
     "internalsVisibleTo": [
     ],

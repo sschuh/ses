@@ -8,7 +8,8 @@
         "${AppSourceCop}"
     ],
     "al.compilationOptions": {
-        "parallel": false
+        "parallel": true,
+        "generateReportLayout": true
     },
     "CRS.AlSubFolderName": "src",
     "CRS.ObjectNamePrefix": "SES",
