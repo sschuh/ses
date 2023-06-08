@@ -1,11 +1,20 @@
 {
-  "folders": [
-    {
-      "path": "ses-app"
-    },
-    {
-      "path": "ses-testapp"
-    }
-  ],
-  "settings": {}
+    "folders": [
+        {
+            "path": ".alpackages"
+        },
+        {
+            "path": ".ruleset"
+        },
+        {
+            "path": ".media"
+        },
+        {
+            "path": "ses-app"
+        },
+        {
+            "path": "ses-testapp"
+        }
+    ],
+    "settings": {}
 }

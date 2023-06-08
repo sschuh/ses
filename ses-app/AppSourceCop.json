@@ -1,3 +1,5 @@
 {
-    "mandatoryAffixes": [ "SES" ]
+    "mandatoryAffixes": [
+        "SES"
+    ]
 }

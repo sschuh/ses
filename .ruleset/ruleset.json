@@ -1,0 +1,16 @@
+{
+    "name": "ruleset",
+    "description": "A list of specific rules",
+    "rules": [
+        {
+            "id": "AS0084",
+            "action": "Hidden",
+            "justification": "The ID range '[50000..99999]' is not valid. It must be within the range allocated to the partner for AppSource."
+        },
+        {
+            "id": "AS0092",
+            "action": "Hidden",
+            "justification": "The app.json file must specify an Azure Application Insights resource."
+        }
+    ]
+}

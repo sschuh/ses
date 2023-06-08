@@ -12,10 +12,9 @@
     "help": "https://github.com/sschuh/",
     "url": "https://github.com/sschuh/",
     "contextSensitiveHelpUrl": "https://github.com/sschuh/",
-    "logo": "./media/logo.png",
+    "logo": "..//.media/logo.png",
     "propagateDependencies": true,
-    "dependencies": [
-    ],
+    "dependencies": [],
     "screenshots": [],
     "idRanges": [
         {
@@ -28,8 +27,7 @@
         "NoPromotedActionProperties",
         "NoImplicitWith"
     ],
-    "internalsVisibleTo": [
-    ],
+    "internalsVisibleTo": [],
     "resourceExposurePolicy": {
         "allowDebugging": true
     },
