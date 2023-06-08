@@ -1,0 +1,55 @@
+{
+    "al.enableCodeAnalysis": true,
+    "al.enableCodeActions": true,
+    "al.ruleSetPath": ".vscode//ruleset.json",
+    "al.codeAnalyzers": [
+        "${CodeCop}",
+        "${UICop}",
+        "${AppSourceCop}"
+    ],
+    "al.compilationOptions": {
+        "parallel": false
+    },
+    "CRS.AlSubFolderName": "src",
+    "CRS.ObjectNamePrefix": "SES",
+    "CRS.OnSaveAlFileAction": "Reorganize",
+    "CRS.RemovePrefixFromFilename": true,
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "alOutline.codeActionsOnSave": [
+        "FormatDocument",
+        "SortCustomizations",
+        "SortPermissions",
+        "SortPermissionSetList",
+        "SortProcedures",
+        "SortProperties",
+        "SortReportColumns",
+        "SortTableFields",
+        "SortVariables"
+    ],
+    "alOutline.codeCleanupActions": [
+        "ConvertObjectIdsToNames",
+        "FixIdentifiersCase",
+        "FixKeywordsCase",
+        "FormatDocument",
+        "LockRemovedFieldCaptions",
+        "MakeFlowFieldsReadOnly",
+        "RemoveBeginEnd",
+        "RemoveEmptyLines",
+        "RemoveEmptySections",
+        "RemoveEmptyTriggers",
+        "RemoveRedundantAppAreas",
+        "RemoveStrSubstNoFromError",
+        "RemoveUnusedVariables",
+        "RemoveWithStatements",
+        "SortCustomizations",
+        "SortPermissions",
+        "SortPermissionSetList",
+        "SortProcedures",
+        "SortProperties",
+        "SortReportColumns",
+        "SortTableFields",
+        "SortVariables",
+        "TrimTrailingWhitespace"
+    ]
+}

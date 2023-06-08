@@ -1,31 +1,37 @@
 {
-  "id": "82d6cd5b-7f3d-4ea9-ad5a-973a72b4d39e",
-  "name": "SES",
-  "publisher": "Sebastian Schuh",
-  "version": "1.0.0.0",
-  "brief": "",
-  "description": "",
-  "privacyStatement": "",
-  "EULA": "",
-  "help": "",
-  "url": "",
-  "logo": "",
-  "dependencies": [],
-  "screenshots": [],
-  "platform": "1.0.0.0",
-  "application": "22.0.0.0",
-  "idRanges": [
-    {
-      "from": 50000,
-      "to": 99999
-    }
-  ],
-  "features": [
-    "NoImplicitWith"
-  ],
-  "resourceExposurePolicy": {
-    "allowDebugging": true,
-    "allowDownloadingSource": false,
-    "includeSourceInSymbolFile": false
-  }
+    "id": "00000000-2fb0-49dd-99e7-cb819887b896",
+    "name": "SES App",
+    "publisher": "Sebastian Schuh",
+    "brief": "Sebastian Schuh",
+    "description": " ",
+    "version": "21.0.0.0",
+    "platform": "21.0.0.0",
+    "application": "21.0.0.0",
+    "privacyStatement": "https://github.com/sschuh/",
+    "EULA": "https://github.com/sschuh/",
+    "help": "https://github.com/sschuh/",
+    "url": "https://github.com/sschuh/",
+    "contextSensitiveHelpUrl": "https://github.com/sschuh/",
+    "logo": "./media/logo.png",
+    "propagateDependencies": true,
+    "dependencies": [
+    ],
+    "screenshots": [],
+    "idRanges": [
+        {
+            "from": 50000,
+            "to": 99999
+        }
+    ],
+    "features": [
+        "TranslationFile",
+        "NoPromotedActionProperties"
+    ],
+    "internalsVisibleTo": [
+    ],
+    "resourceExposurePolicy": {
+        "allowDebugging": true
+    },
+    "target": "Cloud",
+    "runtime": "11.0"
 }
