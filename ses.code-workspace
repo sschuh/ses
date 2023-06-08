@@ -2,6 +2,9 @@
   "folders": [
     {
       "path": "ses"
+    },
+    {
+      "path": "ses-testapp"
     }
   ],
   "settings": {}
